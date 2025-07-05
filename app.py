@@ -61,11 +61,11 @@ from langchain_core.messages import HumanMessage
 #model= OpenAI()
 
 reddit = praw.Reddit(
-    client_id='RAXrbO7u_KzmyvumzVEgyg',
-    client_secret='3leOhBq9_-S5gJNfaGHFDwG7AmZJHQ',
-    username='EfficiencyNervous911',
-    password='#pqop3699',
-    user_agent='script:Random_app (by /u/EfficiencyNervous911'
+    client_id='<client id>',
+    client_secret='<client_secreat>',
+    username='<username>',
+    password='<password>',
+    user_agent='script:<appname> (by /u/username' #paste 
 )
 
 def save_session_history(session_id: str, new_messages: list):
